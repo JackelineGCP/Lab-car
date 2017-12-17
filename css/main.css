@@ -1,0 +1,259 @@
+/* Los estilos de tu proyecto */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.nav{
+  margin-right: -15px;
+}
+.navbar{
+  border: none;
+  margin: 0;
+}
+.logo-padding{
+  padding: 3em;
+}
+
+.portada-taxi{
+  background-image: url('../assets/images/taxi.jpg');
+  background-size: cover;
+  height: 545px;
+  width: 100%;
+  position: relative;
+  background-position: center bottom;
+}
+.content-btn-app{
+  color: black;
+  background-color: white;
+  padding: .5em;
+  margin-top: 20px;
+}
+.section-taxi{
+  background-color: #f7b617;
+  color: white;
+  font-size: 15px;
+  height:25vh;
+  margin-left: 25%;
+  padding: .6em 0 .6em 1.2em;
+  position: absolute;
+  top: 20%;
+  transform: translateX(3.5%);
+}
+.section-taxi-desktop{
+  background-color: #f7b617;
+  height: 48vh;
+  margin-left: 25%;
+  padding: .6em 0 .6em 1.2em;
+  width: 50vh;  
+  position: absolute;
+  top: 20%;
+  transform: translateX(195.5%);
+}
+
+.text-h2, logo-boxe{
+  display: inline;
+}
+
+.logo-white{
+  width: 18%;
+  margin: 10px;
+}
+.logo-boxes{
+  display: inline;
+  margin-top: 1px;
+
+}
+
+.box-logo{
+  position: relative;
+  bottom: 4px;
+}
+
+.text-app{
+  margin-top: 20px;
+}
+
+.bottom{
+  margin-bottom: 10px;
+}
+
+.header{
+  border: none;
+}
+
+.ul li{
+  float: right;
+  display: inline-block;
+  position: relative;
+}
+
+.section-driver{
+  background-image: url('../assets/images/conduce.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  height: 200px;
+}
+
+/*-------Star sectino 3----------*/
+.container-iPho{
+  background-color: #f7b617;
+  width: 100%;
+  padding: 20px;
+}
+.borde{
+  border: 1px solid white;
+  padding: 20px 40px 20px 30px;
+}
+
+.newApp{
+  text-align: center;
+  padding: 
+}
+/*--------Star Section 3-----------*/
+.section-driver-descktop{
+  background-image: url('../assets/images/conduce.jpg');
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+  }
+
+.house-driver{
+  border: 1px solid black;
+  position: relative;
+ }
+
+.box-driver{
+  position: absolute;
+  top: 15%;
+  transform: translateY(50.5%);
+  font-size: 14px;
+  padding-right: 10px;
+}
+.section-driver-movile{
+  padding: 20px;
+  font-size: 14px;
+  }
+
+.bg-opacity{
+  background: rgba(0, 0, 0, 0.6);
+  height: inherit;
+}
+
+.text-section-3{
+  padding: 2em 0 3em 3em;
+  color: white;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+/*---------Start Section 4----------*/
+.section-4{
+  background-color: #f7b617;
+  padding: 30px 8px;
+}
+
+.container {
+  padding-right: 10%;
+  width: 100%;
+}
+
+.row{
+  margin-right: 0;
+}
+
+.width{
+  font-weight: 800;
+}
+
+.shape{
+  margin-bottom: 2em;
+}
+
+.shape-image{
+  display: inline;
+}
+
+.input{
+  margin-left: 1em;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f7b617;
+  outline: none;
+  width: 60%;
+}
+
+.input::placeholder{
+  color: white;
+}
+
+.p-section-4{
+  padding: .5em 0 1em .2em;
+  font-size: 15px;
+}
+
+.h4-section-4{
+  font-size: 20px;
+}
+
+.center{
+  margin-left: 25%;
+}
+
+.map{
+  width: 100%;
+}
+
+.box-map{
+  background-image: url('../assets/images/maps.png');
+  border: 1px solid white;
+  padding: 10px;
+  margin: 1em 0.3em;
+  height: 50vh;
+  
+}
+
+.content-btn{
+  background-color: white;
+  margin-bottom: .5em;
+}
+
+/*Footer*/
+footer {
+  background-color: #2b2b2b;
+  color: white;
+  width: 100%;
+}
+
+footer li{
+  list-style: none;
+  padding-bottom: 1em;
+}
+
+.network-social li{
+  display: inline-block;
+  margin:5px; 
+}
+
+.logo-footer{
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+.logo-white-footer{
+  padding: .5em;
+  margin-left: 0;
+}
+.text-final{
+  text-align: left;
+}
+.content-footer{
+  padding: 5em;
+  height: 550px;
+}
+.icon-padding {
+  padding-right: 7px;
+}
