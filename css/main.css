@@ -237,10 +237,9 @@ footer li{
   display: inline-block;
   margin:5px; 
 }
-
-.logo-footer{
+.logo-footer-movile{
   width: 100%;
-  padding-bottom: 1em;
+  margin: 5px;
 }
 
 .logo-white-footer{
