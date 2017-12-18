@@ -1,7 +1,7 @@
 /* Los estilos de tu proyecto */
 body {
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
 }
 .nav{
   margin-right: -15px;
@@ -36,7 +36,7 @@ body {
   color: white;
   font-size: 15px;
   height:25vh;
-  margin-left: 25%;
+  margin-left: 22.5%;
   padding: .6em 0 .6em 1.2em;
   position: absolute;
   top: 20%;
@@ -45,7 +45,7 @@ body {
 .section-taxi-desktop{
   background-color: #f7b617;
   height: 48vh;
-  margin-left: 25%;
+  margin-left: 23.8%;
   padding: .6em 0 .6em 1.2em;
   width: 50vh;  
   position: absolute;
@@ -53,6 +53,9 @@ body {
   transform: translateX(195.5%);
 }
 
+.btn-white{
+  color: white;
+}
 .text-h2, logo-boxe{
   display: inline;
 }
@@ -73,7 +76,12 @@ body {
 .bottom{
   margin-bottom: 10px;
 }
-
+.btn-orange{
+  background-color:  #ffc107;
+}
+.btn-white{
+  color: white;
+}
 .header{
   border: none;
 }
@@ -87,8 +95,9 @@ body {
 .section-driver{
   background-image: url('../assets/images/conduce.jpg');
   background-size: cover;
-  background-position: center bottom;
-  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px;
 }
 
 /*-------Star sectino 3----------*/
@@ -106,6 +115,7 @@ body {
   text-align: center;
   padding: 
 }
+
 /*--------Star Section 3-----------*/
 .section-driver-descktop{
   background-image: url('../assets/images/conduce.jpg');
@@ -119,16 +129,14 @@ body {
   position: relative;
  }
 
- .btn-driver{
-   background-color: #ffc107;
- }
 .box-driver{
   position: absolute;
-  top: 15%;
-  transform: translateY(50.5%);
+  margin-top: 20%;
+  transform: translateX(46.5%);
   font-size: 14px;
   padding-right: 10px;
 }
+
 .section-driver-movile{
   padding: 20px;
   font-size: 14px;
@@ -144,8 +152,9 @@ body {
   color: white;
 }
 
-.bold{
+.gross-letter{
   font-weight: 600;
+  font-size: 18px;
 }
 
 /*---------Start Section 4----------*/
@@ -213,7 +222,6 @@ body {
   padding: 10px;
   margin: 1em 0.3em;
   height: 50vh;
-  
 }
 
 .content-btn{
